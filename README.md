@@ -8,6 +8,8 @@ Learn more about [Remix Stacks](https://remix.run/stacks).
 npx create-remix@latest --template remix-run/indie-stack
 ```
 
+Modified by JFT: the short tutorial on remix, completed, but converted to mostly jsx instead of tsx and has an extra demo at /movies that pulls from a mongo database (using the example data from mflix) with the mongo adapter living under app/db.mongo-server.js next to the SQLite adapter db.server.js instead of replacing it.
+
 ## What's in the stack
 
 - [Fly app deployment](https://fly.io) with [Docker](https://www.docker.com/)
